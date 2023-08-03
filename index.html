@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Museu Nacional</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js.js"></script>
+<![endif]-->
+</head>
+<body>
+
+<div id="container"><!--Início do container----------------------------------------------->
+
+<header><!--Início do header (cabeçalho)------------------------>
+
+  <div id="logo">
+  	<h1> <a href="">Museu Nacional</a> </h1>
+  </div>	
+
+ <nav><!--inicio da barra de navegação do topo-->
+ 	<ul>
+ 	<li> <a href="">Home</a> </li>
+ 	<li> <a href="">Exposições</a> </li>
+ 	<li> <a href="">Pesquisas</a> </li>
+ 	<li> <a href="">Acervo</a> </li>
+ 	<li> <a href="">Vídeos</a> </li>
+ 	<li> <a href="">Fotos</a> </li>
+ 	<li> <a href="">Contato</a> </li>
+ 	</ul>
+ </nav>	<!--fim da barra de navegação do topo-->
+
+</header><!--fim do header (cabeçalho)------------------------>
+ 
+ <div id="principal"><!--início principal-->
+ 	
+ 	 <div id="conteúdo"><!--início conteúdo-->
+
+ 	  <section id="capa"><!--início capa-->
+ 	  	<img src="img/museu.png"> 	  	
+ 	  </section><!--fim capa-->
+
+    <section id="postagens">
+
+    	<article id="vídeo">
+    	<h3>Vídeo: conheça o Museu</h3>
+    	<iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    	</article>
+      
+      <article id="mapa">
+      <h3>Mapa: encontre o Museu</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311665319!2d-43.228717585034445!3d-22.90575998501238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1690468841331!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
+      </article>
+
+      <article id="exposições">
+      	<h3>Exposições</h3>
+      	<ul>
+      		<li> <a href="#">Os assustadores insetos</a> </li>
+      		<li> <a href="#">O crânio de Luzia, a mulher mais velha do Brasil</a> </li>
+      		<li> <a href="#">Preguiça gigante</a> </li>
+      		<li> <a href="#">Plantas do Brasil Central</a> </li>
+      		<li> <a href="#"><strong>Veja todos (65)</strong></a> </li>
+      	</ul>
+      </article>
+
+      <article id="história">
+      <h3>200 anos de história</h3>
+     <p>A instituição remonta ao Museu Real, fundado por Dom João VI (1816-1826) em 1818, numa iniciativa para estimular o conhecimento científico no Brasil. Inicialmente o museu abrigou coleções de materiais botânicos, de animais empalhados, de minerais, de numismática, de obras de arte e de máquinas. </p> <strong>Leia mais</strong>
+      </article>
+
+    </section>
+
+ 	 </div><!--fim conteúdo-->
+   
+   <aside><!--aside (ao lado) é barra lateral no html5-->
+
+     <section id="depoimento"><!--inicio seção depoimento-->
+     <img src="img/depoimento.png">	
+     </section><!--fim seção depoimento-->
+
+     <section id="visita"><!--inicio seção visita-->
+      <h4>Faça uma visita</h4>     
+      <form>
+      	<fieldset>
+      		<legend id="legend">Selecione uma data</legend>
+
+      		<label for="Data">Data</label>
+      		<input class="campo" type="text" id="data" value="dd/mm/aaaa">
+        
+          <label>Qtd pessoas</label>
+      		<input class="campo" style="width:30px;" type="text" id="qtd" value="1"> <!--1 é o valor inicial, uma pessoa-->
+        
+        	</fieldset>
+        <input class="botão" type="submit" value="verificar disponibilidade">
+
+
+      </form>	
+     </section><!--fim seção visita-->
+     
+     <section id="galeria"><!--inicio seção galeria-->
+     	<h4>Galeria de fotos</h4>
+     	<a href=""> <img src="img/imagem1.jpg" height="93" width="93"> </a>
+     		<a href=""> <img src="img/imagem2.jpg" height="93" width="93"> </a>
+     			<a href=""> <img src="img/imagem3.jpg" height="93" width="93"> </a>
+     				<a href=""> <img src="img/imagem4.jpg" height="93" width="93"> </a>
+     </section><!--fim seção galeria-->
+
+
+   </aside>
+
+
+
+ </div><!--fim principal-->
+
+  <footer>
+  	<p>
+   <a href="#">Home</a>
+ 	 <a href="#">Exposições</a> 
+ 	 <a href="#">Pesquisas</a>
+ 	 <a href="#">Acervo</a> 
+ 	 <a href="#">Vídeos</a> 
+ 	 <a href="#">Fotos</a> 
+ 	 <a href="#">Contato</a>
+  	</p>
+  	<p>
+  	2023 <a href="">Museu Nacional</a> - Todos os Direitos Reservados.
+  	</p>
+  </footer>
+
+</div><!--fim do container----------------------------------------------------------->
+
+</body>
+</html>
+<!--form=formulario, fieldset=conjunto de campo, usado p/agrupar elementos, label=rótulo, tb dentro de um formulario,legend=legenda, representa um rotulo p/ o conteudo do seu ancestral fieldset--> 
